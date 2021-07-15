@@ -3,12 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import dotenv from "dotenv";
-import path from "path";
-
-dotenv.config({
-  path: path.resolve(__dirname, "../.env"),
-});
 
 ReactDOM.render(
   <React.StrictMode>

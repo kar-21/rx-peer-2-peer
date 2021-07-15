@@ -1,6 +1,6 @@
 import React from "react";
 import io from "socket.io-client";
-const SERVER_URL = process.env.BACKEND_URL;
+const SERVER_URL = process.env.REACT_APP_URL;
 // Creating the peer
 export const peer = new RTCPeerConnection({
   iceServers: [
