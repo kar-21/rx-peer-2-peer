@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,8 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +33,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.localVideo {
+  width: 200px;
+}
+
+.remoteVideo {
+  width: 500px;
+}
+
+.callContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caller-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caller-container {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.caller-container-selected {
+  background-color: gray;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: gray solid 2px;
+  cursor: pointer;
+  font-size: xx-large;
 }
